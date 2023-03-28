@@ -8,7 +8,7 @@ public class ProductoNecesidad extends Producto {
     @Override
     public double calcularIva() {
         return precio * 0.04;
-    }
+    } //aquí si tenemos código pq ya no es abstracto
 
     @Override
     public String toString() {

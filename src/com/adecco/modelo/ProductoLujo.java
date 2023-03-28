@@ -1,6 +1,6 @@
 package com.adecco.modelo;
 
-public class ProductoLujo extends Producto {
+public class ProductoLujo extends Producto { //hereda los atributos de Producto
 
     @Override
     public double calcularIva() {
